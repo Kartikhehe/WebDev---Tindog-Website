@@ -1,0 +1,153 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.navbar{
+    margin-top: 0%;
+}
+
+#title {
+    background-color: #ff4c68;
+    margin-top: 0%;
+    padding-top: 1%;
+    text-align: left;
+}
+
+.uparwala{
+    padding: 3% 15%;
+}
+
+
+h1{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.downloadspacing{
+    margin: 2% 1%;
+}
+
+.titlepadding{
+    margin-top: 10%;
+}
+
+/* navbar */
+.navbar-brand{
+    font-size: 2.5rem; 
+    color: white;
+}
+
+.tindoglogo{
+    font-family: "Ubuntu";
+    color: white;
+}
+
+.Headerleft{
+    padding-bottom: 15%;
+}
+
+.navbar{
+    padding-left: 0%;
+}
+
+.nav-link{
+    font-size: 130%;
+}
+
+.rotateimage{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 45px;
+}
+
+#features{
+    padding: 15% 7%;
+    background-color: white;
+    position: relative;
+    /* padding: 10% 5%; */
+}
+
+.featuresaare{
+    align-items: center;
+    text-align: center;
+}
+
+.image{
+    color: #ef8172;
+}
+
+.image:hover{
+    color:#ff4c68;
+}
+
+h3{
+    font-weight: bold;
+}
+
+p{
+    color: grey;
+}
+
+/* testimonial section */
+
+
+#testimonials{
+    background-color: #ff4c68;
+    
+    color: white;
+    
+}
+
+.testimonialsss{
+    padding:  7% 15% 5%;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 15%;
+    margin-top: 5%;
+}
+
+.press-images{
+    width:20%;
+    padding: 7% 3%;
+}
+
+/* pricing */
+#pricing{
+    padding: 7% 10%;
+}
+
+.card{
+    margin: 2% 5%;
+}
+
+.pricing-text{
+    margin-bottom: 5%;
+}
+
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+/* footer  */
+#footer{
+    padding: 4% 15%;
+}
+
+.footericon{
+    padding: 0% 2%;
+}
+
+@media (max-width: 990px){
+    .rotateimage{
+        transform: rotate(0deg);
+        position: static;
+    }
+
+}
